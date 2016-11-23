@@ -16,7 +16,7 @@ img {
   width: 100%;
 }
 
-@media only screen and (min-width: 38em) {
+@media only screen and (min-width: 25em) {
   img {
     float:left;
     width: 19em;
@@ -30,7 +30,7 @@ img {
 
 }
 
-@media only screen and (min-width: 38em) {
+@media only screen and (min-width: 25em) {
   img,
   img:last-child {
     float: left;
