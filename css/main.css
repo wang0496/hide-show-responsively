@@ -1,0 +1,39 @@
+@-moz-viewport { width: device-width; scale: 1; }
+@-ms-viewport { width: device-width; scale: 1; }
+@-o-viewport { width: device-width; scale: 1; }
+@-webkit-viewport { width: device-width; scale: 1; }
+@viewport { width: device-width; scale: 1; }
+
+html {
+  -moz-text-size-adjust: 100%;
+  -ms-text-size-adjust: 100%;
+  -webkit-text-size-adjust: 100%;
+  text-size-adjust: 100%;
+  }
+
+img {
+  display: inline-block;
+  width: 100%;
+}
+
+@media only screen and (min-width: 38em) {
+  img {
+    float:left;
+    width: 19em;
+  }
+
+  img:last-child {
+    float: none;
+    width: 19em;
+
+  }
+
+}
+
+@media only screen and (min-width: 38em) {
+  img,
+  img:last-child {
+    float: left;
+    width:19em;
+  }
+}
